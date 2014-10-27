@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hudButtons"
+    android:orientation="horizontal"
+    android:layout_width="128dp"
+    android:layout_height="64dp" >
+
+    <LinearLayout
+        android:id="@+id/visibilityToggleLayout"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:padding="8dp"
+        android:onClick="toggleVisible" >
+        <ImageView
+            android:id="@+id/visibilityToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#00000000" />
+        <ProgressBar
+            android:id="@+id/visibilityToggleSpinner"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:background="#00000000"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mapToggleLayout"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:padding="8dp"
+        android:onClick="toggleMap" >
+        <ImageView
+            android:id="@+id/mapToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#00000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/settingsToggleLayout"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:padding="8dp"
+        android:onClick="toggleSettings" >
+        <ImageView
+            android:id="@+id/settingsToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#00000000" />
+    </LinearLayout>
+
+</LinearLayout>

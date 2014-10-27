@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/enterAddressLayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:id="@+id/closeAddressInput"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:padding="16dp"
+            android:onClick="backgroundClicked" >
+            <ImageView
+                android:id="@+id/closeAddressInputButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/close_x" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/addressInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_gravity="start"
+            android:hint="@string/enter_address_hint"
+            android:inputType="textNoSuggestions"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

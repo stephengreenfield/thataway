@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Thataway</string>
+    <string name="title_activity_main">Thataway</string>
+    <string name="stop_tracking">Stop tracking</string>
+    <string name="only_track">Only track</string>
+    <string name="change_name">Change Name</string>
+    <string name="white_theme_text">change to black theme</string>
+    <string name="black_theme_text">change to white theme</string>
+    <string name="go_invisible">Go Invisible</string>
+    <string name="cancel">Cancel</string>
+    <string name="you_are_visible_as">\nYou are now visible to other users as\n</string>
+    <string name="name_taken">Sorry, but that name is currently in use</string>
+    <string name="place_already_tracked">You are already tracking that location</string>
+    <string name="about_box_text">Thataway is a compass utility. It interfaces with google maps to show the direction and distance of things on your compass. If visibility is enabled, you\'ll see other users on your compass - handy for tracking friends down in a crowd. By default, users are not visible, and the server erases all activity more than five minutes old.</string>
+    <string name="app_version">v1.0</string>
+    <string name="about_contact">by Stephen Greenfield\nstephengreenfield@gmail.com\n<a href='http://mindsoon.com'>www.mindsoon.com</a></string>
+    <string name="splash_text">tap compass to start</string>
+    <string name="enter_address_hint">enter address or place name</string>
+    <string name="gps_network_not_enabled">Please enable GPS services</string>
+    <string name="open_location_settings">Please enable location settings</string>
+    <string name="addressResultsText">tap location to start tracking</string>
+    <string name="check_internet_connection">Please check your Internet connection</string>
+    <string name="enable_location_services">Please enable location services</string>
+    <string name="location_not_found">Location could not be found in google maps</string>
+    <string name="no_name_found">No name found for address</string>
+    <string name="base_url">http://mindsoon.com/thataway/api.php?key=milkduds</string>
+    <string name="long_time_no_response">Server doesn\'t seem to be responding right now</string>
+    <string name="mark_current_location">mark the current location</string>
+    <string name="show_about_box">about this app</string>
+    <string name="update_while_minimized">update while minimized</string>
+    <string name="settings">settings</string>
+    <string name="OK">OK</string>
+    <string name="enter_location_name">What do you want to call this location?</string>
+    <string name="search_result">search result</string>
+    <string name="my_location">my location</string>
+    <string name="place">place</string>
+    <string name="person">person</string>
+
+    <!-- Messages -->
+    <string name="connected">Client connected</string>
+    <string name="connection_error_code_unknown">Unknown connection error code:  %1$d</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="disconnected">Client disconnected</string>
+    <string name="get_address">Get Address</string>
+    <string name="get_location">Get Location</string>
+    <string name="illegal_argument_exception">Illegal arguments: Latitude %1$.8f Longitude %2$.8f</string>
+    <string name="invalid_action">Invalid intent action %1$s</string>
+    <string name="invalid_integer_id">Invalid integer request ID: %1$s</string>
+    <string name="IO_Exception_getFromLocation">IO Exception in Geocoder.getFromLocation()</string>
+    <string name="location_requested">Periodic updates requested</string>
+    <string name="location_updated">Location updated</string>
+    <string name="location_update_error">Location update failed</string>
+    <string name="location_update_error_detail">Location update error. code %1$d message %2$s</string>
+    <string name="location_update_missing_update">Location update error. No incoming location.</string>
+    <string name="location_updates_stopped">Periodic updates stopped</string>
+    <string name="log_new_location">New location: %1$s</string>
+    <string name="no_address_found">No address found for location</string>
+    <string name="no_connection">No connection: Cannot request location</string>
+    <string name="no_geocoder_available">Cannot get address. No geocoder available.</string>
+    <string name="no_location_available">Location not available</string>
+    <string name="resolved">Error resolved. Please re-try operation.</string>
+    <string name="no_resolution">Google Play services: unable to resolve connection error.</string>
+    <string name="periodic_update_stop">Stopping periodic updates</string>
+    <string name="play_services_available">Google Play services is available</string>
+    <string name="request_location_updates_in_progress">Can\'t request location updates, previous request hasn\'t finished</string>
+    <string name="start_updates">Start Updates</string>
+    <string name="stop_updates">Stop Updates</string>
+    <string name="unknown">--Unknown--</string>
+    <string name="unknown_activity_request_code">Received an unknown activity request code %1$d in onActivityResult.</string>
+
+</resources>
